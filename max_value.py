@@ -16,5 +16,18 @@ def max_value(A):
 
     return my_max   
 
+#use for loops to find max value in list
+def alternate(A):
+    for v in A:
+        for x in A:
+            if v < x:
+                break
+            else:
+                return v
+    return None
 
+
+
+#print results
 print(f"use my func => {max_value(A)}")
+print(f"for loops result => {alternate(A)}")
