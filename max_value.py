@@ -22,8 +22,8 @@ def alternate(A):
         for x in A:
             if v < x:
                 break
-            else:
-                return v
+        else:
+            return v
     return None
 
 
