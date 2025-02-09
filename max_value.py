@@ -1,11 +1,6 @@
 #sorted list
 A = [1 , 2 , -3 , -4 , 5]
 
-
-#use max() function
-print(f"use max() func => {max(A)}")
-
-
 #max_value
 def max_value(A):
     my_max = A[0]
@@ -24,10 +19,5 @@ def alternate(A):
                 break
         else:
             return v
+            
     return None
-
-
-
-#print results
-print(f"use my func => {max_value(A)}")
-print(f"for loops result => {alternate(A)}")
