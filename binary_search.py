@@ -2,7 +2,6 @@ from typing import List
 
 class Binary:
     def binary_search(self , nums: List[int] , target: int) -> int:
-
         low = 0
         high = len(nums) - 1
 
@@ -10,11 +9,9 @@ class Binary:
             mid = (low + high) // 2
 
             if nums[mid] == target:
-                return mid
-        
+                return mid 
             elif nums[mid] < target:
                 low = mid + 1
-
             else:
                 high = mid - 1
    
